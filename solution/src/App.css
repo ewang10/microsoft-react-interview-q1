@@ -47,7 +47,8 @@ label {
   margin-right: 10px;
 }
 
-input, select {
+input,
+select {
   width: 70%;
 }
 
@@ -56,6 +57,13 @@ input, select {
   gap: 10px;
   justify-content: flex-end;
   width: 100%;
+}
+
+button {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px black;
+  background-color: white;
+  border: 2px solid black;
 }
 
 table {
